@@ -84,6 +84,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "A curated library of course materials. Read online or download as PDF and DOCX." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Studyshelf — Course Materials Library" },
+      { name: "twitter:description", content: "A curated library of course materials. Read online or download as PDF and DOCX." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cb9a2688-5224-4667-b59c-2033083ce192/id-preview-c8d11075--8d101060-f8e5-42b1-a830-ace66b8be1e7.lovable.app-1781871520744.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cb9a2688-5224-4667-b59c-2033083ce192/id-preview-c8d11075--8d101060-f8e5-42b1-a830-ace66b8be1e7.lovable.app-1781871520744.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
